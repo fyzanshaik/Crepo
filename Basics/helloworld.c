@@ -4,10 +4,7 @@
 int main ()
 {
    printf("Hello World!\n");
-   printf("   /|\n");
-   printf("  / |\n");
-   printf(" /  |\n");
-   printf("/___|\n");
+   printf("Hello World!");
 
    return 0;
 }
