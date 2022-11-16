@@ -1,24 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//A function is basically a collection of code that performs a specific task.
 int main()
 {
-    char color[20], pluralNoun[20] ,celebrityF[20], celebrityL[20];
-
-    printf("Enter a color: ");
-    scanf("%s", color);
-
-    printf("Enter a plural Noun: ");
-    scanf("%s", pluralNoun);
-
-    printf("Enter a celebrity's name: ");
-    scanf("%s%s", celebrityF, celebrityL);
-
-    printf("Roses are %s\n", color);
-    printf("%s are blue\n", pluralNoun);
-    printf("I love %s %s\n", celebrityF, celebrityL);
-
-
-
+    printf("Top");
+    sayHi();   
+    printf("Bottom");
     return 0;
+}
+//void doesn't return any information or data or value 
+void sayHi(){
+    printf("hello user");
 }
